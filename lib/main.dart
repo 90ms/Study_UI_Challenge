@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'Week1/bottom_navigation.dart';
+import 'package:study_ui_challenge/Week1/week1_main.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,17 +10,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Study',
-      home: Scaffold(
-        backgroundColor: Colors.white,
-        body: SafeArea(
-          child: Column(
-            children: const <Widget>[],
-          ),
-        ),
-        bottomNavigationBar: const BottomNavigation(),
-      ),
-    );
+    return Week1Main().week1();
   }
 }
