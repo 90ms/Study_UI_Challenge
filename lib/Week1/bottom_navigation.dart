@@ -38,8 +38,9 @@ class BottomNavigationState extends State<BottomNavigation> {
   BottomNavyBarItem navigationItem(
       int index, String selectIcon, String unSelectIcon, String title) {
     return BottomNavyBarItem(
-      icon: Image.asset(itemIndex == index ? selectIcon : unSelectIcon,
-          width: 25, height: 25),
+      icon: Image.asset(
+          itemIndex == index ? selectIcon : unSelectIcon,
+          width: 20, height: 20),
       title: Text(
         title,
         style: const TextStyle(color: Colors.white),
