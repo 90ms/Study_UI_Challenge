@@ -39,7 +39,7 @@ class ItemTile extends StatelessWidget {
             Row(
               children: <Widget>[
                 const Icon(Icons.hail, color: Colors.orange, size: 20),
-                Text(_items.description,
+                Text(_items.education.str,
                     style: TextStyle(color: Colors.indigo[200]))
               ],
             )

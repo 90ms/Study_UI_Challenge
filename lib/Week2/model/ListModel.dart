@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:study_ui_challenge/Week2/model/DummyData.dart';
 
 class Items {
   final IconData icon;
   final String title;
   final String address;
-  final String description;
+  final EducationType education;
 
-  Items(this.icon, this.title, this.address, this.description);
+  Items(this.icon, this.title, this.address, this.education);
 }
